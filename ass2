@@ -1,0 +1,18 @@
+#program to print reverse of the list element.
+a=[]
+n=int(input('Enter n:'))
+for i in  range(n):
+    d=int(input())
+    a.append(d)
+print('mylist before reverse:',a)
+a2=a
+a2.reverse()
+print('mylist after reverse',a2)
+
+output :
+enter n:3
+13
+3
+6
+mylist before reverse:[13,3,6]
+mylist after reverse:[6,3,13]
